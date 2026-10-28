@@ -52,17 +52,25 @@ footer{
     /* Disposição */
     display: flex;
     /* Tamanho */
-    width: 40vw;
-    
+    width: 100%;
 }
 
-.reverse-card{
-    /* Disposição */
-    flex-direction: row-reverse;
+.text-card{
+    /* Tamanho */
+    width: 40vw;
 }
+
 
 .image-card img{
     width: 100%;
+}
+
+.image-card{
+    /* Disposição */
+    display: flex;
+    align-items: center;
+    /* Tamanho */
+    
 }
 
 .Atractive{
