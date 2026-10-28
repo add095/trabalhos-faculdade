@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+header{
+    /* Disposição */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Tamanhos */
+    width: 100%;
+    height: 10vh;
+    /* Fundo */
+    background-color: rgb(18, 23, 49);
+}
+
+header h1{
+    color: white;
+}
+
+main{
+    /* Disposição */
+    display: flex;
+    flex-direction: column;
+    /* Tamanho */
+    /* Margem */
+    /*  */
+}
+
+footer{
+
+}
+
+/* Header */
+
+
+
+/* Main */
+.toExplain{
+
+}
+
+.Atractive{
+
+}
+
+.toLinkWithRegistration{
+
+}
+
+
+/* Footer */
