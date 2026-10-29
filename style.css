@@ -1,8 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    word-break: break-all;
-    word-wrap: break-word;
+    box-sizing: border-box;
+}
+
+body{
+    /* Background color */
+    background-color: aliceblue;
 }
 
 header{
@@ -18,6 +22,7 @@ header{
 }
 
 header h1{
+    /* Fonte */
     color: white;
 }
 
@@ -25,11 +30,8 @@ main{
     /* Disposição */
     display: flex;
     flex-direction: column;
-    /* Tamanho */
-
     /* Margem */
-    margin: 10vh 0px;
-    /*  */
+    margin: 5vh 0px;
 }
 
 footer{
@@ -39,30 +41,55 @@ footer{
 /* Header */
 
 
-
 /* Main */
 .toExplain{
     /* Disposição */
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+}    
 
 .card, .reverse-card{
     /* Disposição */
     display: flex;
+    align-items: center;
+    justify-content: space-around;
     /* Tamanho */
-    width: 100%;
+    width: 50%;
+    /* Background */
+    background-color: rgb(18, 23, 49);
+    /* Margem */
+    margin: 1.75rem 0;
+    padding: 2rem;
+    /* Border */
+    border-radius: 25px;
 }
+
+.reverse-card .text-card{
+    /* Disposição */
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: left;
+} 
 
 .text-card{
     /* Tamanho */
-    width: 40vw;
+    width: 60vw;
+    /* Fonte */
+    color: aliceblue;
 }
 
+.text-card p{
+    /* Tamanho */
+    width: 65%;
+    /* Margem */
+    margin: 0;
+}
 
-.image-card img{
-    width: 100%;
+.text-card h2{
+    /* Margem */
+    margin: 10px 0 ;
 }
 
 .image-card{
@@ -70,6 +97,14 @@ footer{
     display: flex;
     align-items: center;
     /* Tamanho */
+    width: 40vw;
+}
+.image-card img{
+    /* Tamanho */
+    width: 100%;
+    /* Border */
+    border-radius: 25px;
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 1);
     
 }
 
