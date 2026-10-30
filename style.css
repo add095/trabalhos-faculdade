@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39&family=Shalimar&display=swap');
+
+.libre-barcode-39-regular {
+  font-family: "Libre Barcode 39", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.shalimar-regular {
+  font-family: "Shalimar", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 body{
     /* Background*/
@@ -43,6 +57,7 @@ footer{
 /* Header */
 
 
+
 /* Main */
 .toExplain{
     /* Disposição */
@@ -58,14 +73,19 @@ footer{
     align-items: center;
     justify-content: space-around;
     /* Tamanho */
-    width: 50%;
+    width: 60%;
     /* Background */
     background-color: rgb(18, 23, 49);
     /* Margem */
-    margin: 1.75rem 0;
+    margin: 1.75rem;
     padding: 2rem;
     /* Border */
     border-radius: 25px;
+}
+
+.none-margin{
+    margin-top: 1.75rem;
+    margin-bottom: 0px;
 }
 
 .reverse-card .text-card{
@@ -102,6 +122,7 @@ footer{
     /* Tamanho */
     width: 40vw;
 }
+
 .image-card img{
     /* Tamanho */
     width: 100%;
@@ -115,10 +136,11 @@ footer{
     /* Disposição */
     display: flex;
     flex-direction: row;
+    justify-content: center;
     /* tamanho */
-    width: 100%;
+    width:100%;
     /* Margem */
-    margin-top: 2.5vw;
+    margin-top: 5vh;
 }
 
 .skills{
@@ -128,9 +150,9 @@ footer{
     justify-content: center;
     flex-wrap: wrap;
     /* Tamanho */
-    width: 100vw;
+    width: 80vw;
     /* margem */
-    gap: 10vw;
+    gap: 5.5vw;
 }
 
 .card-skills{
@@ -168,13 +190,50 @@ footer{
     display: flex;
     justify-content: center;
     /* Tamanho */
-    width: 80%;
-    height: 600px;
+    width: 60%;
+    height: fit;
     /* Background */
-    background-color: cadetblue;
+    background-color: rgb(3, 99, 102);
     /* Margem */
+    margin-top: 5vh;
+    padding: 5vw;
     /* borda */
+    border-radius: 25px;
+    /* Color */
+    color: white;
 }
 
+form{
+    /* Disposição */
+    display: flex;
+    flex-direction: column;
+    /* Fonte */
+    font-weight: bolder;
+    /* margem */
+}
 
+label{
+    margin-top: 25px;
+}
+
+.canva h2{
+    margin: 0 0 3.5vw 0;
+    text-align: center;
+}
+
+input{
+    /* Tamanho */
+    width: 30vw;
+    height: 2rem;
+    /* Border */
+    border:none;
+    border-radius: 25px;
+    /* Margem */
+    margin-bottom: 25px;
+    padding: 0 0 0 30px ;
+}
+
+.none{
+    padding: 0;
+}
 /* Footer */
