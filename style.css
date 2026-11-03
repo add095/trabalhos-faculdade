@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,24 +7,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39&family=Shalimar&display=swap');
 
 .libre-barcode-39-regular {
-  font-family: "Libre Barcode 39", system-ui;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Libre Barcode 39", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .shalimar-regular {
-  font-family: "Shalimar", cursive;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Shalimar", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
-body{
+body {
     /* Background*/
     background-color: aliceblue;
 }
 
-header{
+header {
     /* Disposição */
     display: flex;
     justify-content: center;
@@ -36,12 +36,12 @@ header{
     background-color: rgb(18, 23, 49);
 }
 
-header h1{
+header h1 {
     /* Fonte */
     color: white;
 }
 
-main{
+main {
     /* Disposição */
     display: flex;
     flex-direction: column;
@@ -50,8 +50,11 @@ main{
     margin: 5vh 0px;
 }
 
-footer{
-
+footer {
+    background-color: #111c35;
+    text-align: center;
+    padding: 25px;
+    color: #cbd5e1;
 }
 
 /* Header */
@@ -59,15 +62,16 @@ footer{
 
 
 /* Main */
-.toExplain{
+.toExplain {
     /* Disposição */
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-}    
+}
 
-.card, .reverse-card{
+.card,
+.reverse-card {
     /* Disposição */
     display: flex;
     align-items: center;
@@ -83,39 +87,39 @@ footer{
     border-radius: 25px;
 }
 
-.none-margin{
+.none-margin {
     margin-top: 1.75rem;
     margin-bottom: 0px;
 }
 
-.reverse-card .text-card{
+.reverse-card .text-card {
     /* Disposição */
     display: flex;
     flex-direction: column;
     align-items: end;
     text-align: left;
-} 
+}
 
-.text-card{
+.text-card {
     /* Tamanho */
     width: 60vw;
     /* Fonte */
     color: aliceblue;
 }
 
-.text-card p{
+.text-card p {
     /* Tamanho */
     width: 65%;
     /* Margem */
     margin: 0;
 }
 
-.text-card h2{
+.text-card h2 {
     /* Margem */
-    margin: 10px 0 ;
+    margin: 10px 0;
 }
 
-.image-card{
+.image-card {
     /* Disposição */
     display: flex;
     align-items: center;
@@ -123,27 +127,27 @@ footer{
     width: 40vw;
 }
 
-.image-card img{
+.image-card img {
     /* Tamanho */
     width: 100%;
     /* Border */
     border-radius: 25px;
     box-shadow: 0px 5px 15px rgba(255, 255, 255, 1);
-    
+
 }
 
-.Atractive{
+.Atractive {
     /* Disposição */
     display: flex;
     flex-direction: row;
     justify-content: center;
     /* tamanho */
-    width:100%;
+    width: 100%;
     /* Margem */
     margin-top: 5vh;
 }
 
-.skills{
+.skills {
     /* Disposição */
     display: flex;
     flex-direction: row;
@@ -155,7 +159,7 @@ footer{
     gap: 5.5vw;
 }
 
-.card-skills{
+.card-skills {
     /* Disposição */
     display: flex;
     flex-direction: column;
@@ -176,7 +180,7 @@ footer{
 
 }
 
-.text-card-skills{
+.text-card-skills {
     /* Tamanho */
     width: 70%;
     /* Alinhamento */
@@ -185,7 +189,7 @@ footer{
     list-style: none;
 }
 
-.form{
+.form {
     /* Disposição */
     display: flex;
     justify-content: center;
@@ -203,7 +207,7 @@ footer{
     color: white;
 }
 
-form{
+form {
     /* Disposição */
     display: flex;
     flex-direction: column;
@@ -212,28 +216,29 @@ form{
     /* margem */
 }
 
-label{
+label {
     margin-top: 25px;
 }
 
-.canva h2{
+.canva h2 {
     margin: 0 0 3.5vw 0;
     text-align: center;
 }
 
-input{
+input {
     /* Tamanho */
     width: 30vw;
     height: 2rem;
     /* Border */
-    border:none;
+    border: none;
     border-radius: 25px;
     /* Margem */
     margin-bottom: 25px;
-    padding: 0 0 0 30px ;
+    padding: 0 0 0 30px;
 }
 
-.none{
+.none {
     padding: 0;
 }
+
 /* Footer */
