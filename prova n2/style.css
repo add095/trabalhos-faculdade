@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39&family=Shalimar&display=swap');
+
+.libre-barcode-39-regular {
+    font-family: "Libre Barcode 39", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.shalimar-regular {
+    font-family: "Shalimar", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    /* Background*/
+    background-color: aliceblue;
+}
+
+header {
+    /* Disposição */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Tamanhos */
+    width: 100%;
+    height: 10vh;
+    /* Fundo */
+    background-color: rgb(18, 23, 49);
+}
+
+header h1 {
+    /* Fonte */
+    color: white;
+}
+
+main {
+    /* Disposição */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Margem */
+    margin: 5vh 0px;
+}
+
+footer {
+    background-color: #111c35;
+    text-align: center;
+    padding: 25px;
+    color: #cbd5e1;
+}
+
+/* Header */
+
+
+
+/* Main */
+.toExplain {
+    /* Disposição */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.card,
+.reverse-card {
+    /* Disposição */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* Tamanho */
+    width: 60%;
+    /* Background */
+    background-color: rgb(18, 23, 49);
+    /* Margem */
+    margin: 1.75rem;
+    padding: 2rem;
+    /* Border */
+    border-radius: 25px;
+}
+
+.none-margin {
+    margin-top: 1.75rem;
+    margin-bottom: 0px;
+}
+
+.reverse-card .text-card {
+    /* Disposição */
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: left;
+}
+
+.text-card {
+    /* Tamanho */
+    width: 60vw;
+    /* Fonte */
+    color: aliceblue;
+}
+
+.text-card p {
+    /* Tamanho */
+    width: 65%;
+    /* Margem */
+    margin: 0;
+}
+
+.text-card h2 {
+    /* Margem */
+    margin: 10px 0;
+}
+
+.image-card {
+    /* Disposição */
+    display: flex;
+    align-items: center;
+    /* Tamanho */
+    width: 40vw;
+}
+
+.image-card img {
+    /* Tamanho */
+    width: 100%;
+    /* Border */
+    border-radius: 25px;
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 1);
+
+}
+
+.Atractive {
+    /* Disposição */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* tamanho */
+    width: 100%;
+    /* Margem */
+    margin-top: 5vh;
+}
+
+.skills {
+    /* Disposição */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* Tamanho */
+    width: 80vw;
+    /* margem */
+    gap: 5.5vw;
+}
+
+.card-skills {
+    /* Disposição */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* Background */
+    background-color: rgb(30, 45, 110);
+    /* Tamanho */
+    height: 40vh;
+    width: 20%;
+    /* Cores */
+    color: white;
+    /* margem */
+    padding: 10vh 0;
+    /* Borda */
+    border-radius: 25px;
+    border: 3px solid #182349;
+
+}
+
+.text-card-skills {
+    /* Tamanho */
+    width: 70%;
+    /* Alinhamento */
+    text-align: center;
+    /* decoration */
+    list-style: none;
+}
+
+.form {
+    /* Disposição */
+    display: flex;
+    justify-content: center;
+    /* Tamanho */
+    width: 60%;
+    height: fit;
+    /* Background */
+    background-color: rgb(3, 99, 102);
+    /* Margem */
+    margin-top: 5vh;
+    padding: 5vw;
+    /* borda */
+    border-radius: 25px;
+    /* Color */
+    color: white;
+}
+
+form {
+    /* Disposição */
+    display: flex;
+    flex-direction: column;
+    /* Fonte */
+    font-weight: bolder;
+    /* margem */
+}
+
+label {
+    margin-top: 25px;
+}
+
+.canva h2 {
+    margin: 0 0 3.5vw 0;
+    text-align: center;
+}
+
+input {
+    /* Tamanho */
+    width: 30vw;
+    height: 2rem;
+    /* Border */
+    border: none;
+    border-radius: 25px;
+    /* Margem */
+    margin-bottom: 25px;
+    padding: 0 0 0 30px;
+}
+
+.none {
+    padding: 0;
+}
+
+/* Footer */
